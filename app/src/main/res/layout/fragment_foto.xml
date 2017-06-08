@@ -5,9 +5,11 @@
     tools:context="xir4n26.remidiuts.telkomschid.remidiuts26.FotoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/nf" />
 
 </FrameLayout>
